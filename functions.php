@@ -46,17 +46,7 @@ function ma_sidebar() {
 	register_sidebar( $args );
 	
 
-	$args = array(
-		'name'          => 'sidebar_header',
-		'description'   => 'Zone en en-tête',
-		'class'         => 'sidebar-header',
-		'before_title'  => '<h3 class="widgettitle">',
-		'after_title'   => '</h3>',
-		'before_widget' => '<div  id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-	);
-	
-	register_sidebar( $args );
+
 }
 
 // Hook into the 'widgets_init' action

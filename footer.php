@@ -1,16 +1,19 @@
 </section>
-<?php get_sidebar('aside') ?>
+<aside class="sidebar-aside">
+	<?php get_sidebar('aside') ?>
+</aside>
+
 
 
 </main>	
 	<footer class="site-footer">
 	
-		<div class="widget-zone">
+		<div class="sidebar-footer">
 			<?php get_sidebar(); ?>
 		</div>
 	
 	
-		Créé par E. Jallier _ <?= date('Y'); ?>
+		&copy; CEFIM-E.Jallier _ <?= date('Y'); ?>
 	</footer>
 </div>	
 <?php wp_footer(); ?>

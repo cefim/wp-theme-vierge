@@ -1,0 +1,66 @@
+
+.widget tbody td {
+	border: 1px solid #ccc;
+
+	width : calc(100%/7)
+}
+
+.widget table {
+	margin-bottom: 18px;
+}
+
+/* Calendar Widget*/
+
+.widget_calendar table {
+	line-height: 2;
+	margin: 0;
+}
+
+.widget_calendar caption {
+	color: #fff;
+	font-weight: 700;
+	line-height: 1.7142857142;
+	margin-bottom: 18px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.widget_calendar thead th {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.widget_calendar tbody td,
+.widget_calendar thead th {
+	text-align: center;
+}
+.widget_calendar tbody .pad{
+	background: #ccc;
+}
+.widget_calendar tbody a {
+	background-color: #747272;
+	color: #fff;
+	display: block;
+text-decoration: none;
+	height: 100%;
+}
+
+.widget_calendar tbody a:hover {
+	background-color: black;
+
+}
+
+.widget_calendar tbody #today {
+	background: #eee;
+}
+.widget_calendar tbody a:hover {
+	color: #fff;
+}
+
+.widget_calendar #prev {
+	padding-left: 5px;
+}
+
+.widget_calendar #next {
+	padding-right: 5px;
+	text-align: right;
+}

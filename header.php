@@ -29,7 +29,7 @@
 		</h1>
 		<div class="site-slogan"><?php bloginfo('description'); ?></div>	
 		<aside class="sidebar-header">
-			<?php get_sidebar('header'); ?>
+			<?php get_search_form(); ?>
 		</aside>
 	</header>
 	<nav class="menu-principal">
@@ -40,5 +40,5 @@
 		) ) ?>
 	</nav>
 	
-	<main class="container">
+	<main class="container clearfix">
 	<section class="content">
